@@ -1,4 +1,47 @@
 header{
-    background-color: #191919;
+    background-color: #3b3939;
     color: white;
+}
+@media screen  and (min-width: 320px){
+    h1{
+        margin-left: 26%;
+    }
+    h4{
+        margin-left: 10px;
+    }
+    p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .card{
+        margin: 15px;
+    }
+    
+ }    
+@media screen and (min-width 1200){
+    .section{
+        justify-content: center;
+        align-items: center;
+    }
+}
+ section{
+    display: flex;
+    flex-wrap: wrap;
+ }
+footer{
+    color: white;
+    background-color: black;
+    height: 193px;
+    display: flex;
+}
+
+body{
+    background-color: #3b3939;
+}
+.card{
+    background-color: #40e0d0;
+    width: 290px;
+}
+.loading{
+    background-color: #1919198a;
 }
