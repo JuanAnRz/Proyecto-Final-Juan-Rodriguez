@@ -1,10 +1,10 @@
-header{
-    background-color: #3b3939;
-    color: white;
-}
+
+
+/* tarjetas productos,vista telefono*/
 @media screen  and (min-width: 320px){
     h1{
         margin-left: 26%;
+        margin-right: 26%;
     }
     h4{
         margin-left: 10px;
@@ -18,30 +18,45 @@ header{
     }
     
  }    
-@media screen and (min-width 1200){
-    .section{
-        justify-content: center;
-        align-items: center;
-    }
-}
+/*tarjetas productos, vista compu*/
  section{
     display: flex;
     flex-wrap: wrap;
  }
+ .card{
+    background-color: #40e0d0;
+    width: 290px;
+    margin: 24px;
+}
+/*general*/
 footer{
     color: white;
     background-color: black;
     height: 193px;
     display: flex;
 }
-
+header{
+    background-color: #3b3939;
+    color: white;
+}
 body{
     background-color: #3b3939;
 }
-.card{
-    background-color: #40e0d0;
-    width: 290px;
-}
+
 .loading{
     background-color: #1919198a;
+}
+/*Locales*/
+.mLocales{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen  and (min-width: 1200px){
+    main .card{
+        margin: 30px;
+        height: 100px;
+    }
+    main{
+        height: 757px;
+    }
 }
