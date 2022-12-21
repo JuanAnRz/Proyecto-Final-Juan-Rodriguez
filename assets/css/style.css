@@ -80,3 +80,51 @@ body{
 p{
     color: white;
 }
+main form{
+
+}
+main form div{
+    color: white;
+    margin-left: 20px;
+    width: auto;
+}
+.margin-left{
+    margin-left: 14.64%;
+    margin-bottom: 5px;
+}
+.h1Contactanos{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 320px) {
+    
+    .h1Contactanos{
+        margin-left: 10px;
+        margin-right: 0;
+        
+    }
+    .margin{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/*Nosotros*/
+.mNosotros{
+    color: white;
+
+}
+.hNosotros h1{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+@media screen and (max-width: 320px){
+    .hNosotros h1{
+        margin-left: 12%;
+        margin-right: 11%;
+    }
+}
+.mNosotros p{
+    font-size:x-large;
+}
