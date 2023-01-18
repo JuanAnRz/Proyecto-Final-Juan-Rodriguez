@@ -54,7 +54,6 @@ body{
 @media screen  and (min-width: 1200px){
     main .card{
         margin: 30px;
-        height: 100px;
     }
     main{
         height: 757px;
@@ -154,6 +153,7 @@ main{
     flex-wrap: wrap;
     overflow: hidden;
     text-align: center;
+
     
     section{
         width: 50%;
@@ -175,5 +175,20 @@ main{
     }
     .carousel{
         height: 40%;
+    }
+
+    .divproducts{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    @media screen and (max-width: 576px) {
+
+        justify-content: center;
+
+        section{
+            width: auto;
+        }
+
     }
 }
