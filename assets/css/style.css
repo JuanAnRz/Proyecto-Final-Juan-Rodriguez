@@ -254,6 +254,9 @@ main form div p {
 .mainProducts section {
   width: 50%;
 }
+.p{
+  color: black;
+}
 .mainProducts section div {
   width: 100%;
 }
