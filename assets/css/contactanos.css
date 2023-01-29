@@ -1,0 +1,37 @@
+/*Contactanos*/
+.contactos {
+  color: white;
+}
+
+main {
+  align-items: center;
+  justify-content: center;
+}
+main form div {
+  color: white;
+  margin-left: 20px;
+  width: auto;
+}
+main form div p {
+  color: white;
+}
+
+.margin-left {
+  margin-bottom: 5px;
+}
+
+.h1Contactanos {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@media screen and (max-width: 320px) {
+  .h1Contactanos {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  .margin {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+}

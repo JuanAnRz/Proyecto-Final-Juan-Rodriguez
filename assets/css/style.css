@@ -1,96 +1,105 @@
-/* tarjetas productos,vista telefono*/
-@media screen and (min-width: 320px) {
-  h1 {
-    margin-left: 26%;
-    margin-right: 26%;
+
+/*general*/
+p {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.h4 {
+  width: 100%;
+  margin: 0;
+}
+
+.redes {
+  width: 26.3828125%;
+  margin: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .secFooter {
+    width: 240px;
   }
-  h4 {
-    margin-left: 10px;
-  }
-  p {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .card {
-    margin: 15px;
+  .secFooter div {
+    display: block;
   }
 }
-/*tarjetas productos, vista compu*/
-section {
+.divFooter {
+  display: flex;
+  flex-wrap: wrap;
+}
+.divFooter h4 {
+  width: 100%;
+  height: 10px;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.secFooter {
+  width: 240px;
+  margin: 20px;
+}
+.secFooter div {
   display: flex;
   flex-wrap: wrap;
 }
 
-.card {
-  background-color: #40e0d0;
-  width: 290px;
-  margin: 24px;
-}
-
-/*general*/
 body {
   background-color: #3b3939;
 }
 body footer {
   color: white;
   background-color: black;
-  height: 193px;
   display: flex;
+  flex-wrap: wrap;
 }
 body header {
   background-color: #3b3939;
   color: white;
+  text-align: center;
 }
 
 .loading {
   background-color: rgba(25, 25, 25, 0.5411764706);
 }
 
-/*Locales*/ /*Inicio*/
-.mLocales {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-@media screen and (min-width: 1200px) {
-  main .card {
-    margin: 30px;
-  }
-  main {
-    height: 757px;
-  }
-  .carousel {
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 30px;
-    margin-top: 30px;
-  }
-  .mIndex {
-    height: auto;
-  }
-  .h1Index {
-    margin-left: 42%;
-    margin-right: 42%;
-    margin-bottom: 30px;
-    margin-top: 30px;
-  }
-}
 /*Contactanos*/
-.Cbody {
-  overflow: hidden;
+.cardContact{
+  height: 313px;
+}
+.mContactanos{
+  height: auto;
+}
+.contactos {
+  color: white;
 }
 
+main {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+main form{
+  width: 100vw;
+  justify-content: center;
+}
 main form div {
+  align-items: center;
   color: white;
   margin-left: 20px;
   width: auto;
+}
+main form div .bttn{
+  margin: 0;
 }
 main form div p {
   color: white;
 }
 
 .margin-left {
-  margin-left: 14.64%;
   margin-bottom: 5px;
 }
 
@@ -109,9 +118,106 @@ main form div p {
     margin-bottom: 10px;
   }
 }
+/*Locales*/ /*Inicio*/
+.mLocales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: start;
+  align-items:start;
+}
+
+.Sucursales {
+  width: 95%;
+}
+
+.card-locales {
+  height: 415px;
+}
+
+.mIndex {
+  justify-content: start;
+}
+@media screen and (min-width:320px){
+  .divIndex {
+    width: auto;
+    height: 50%;
+  }
+  .carousel {
+    width: 100%;
+    height: 50%;
+  }
+}
+.divIndex p{
+  color: black;
+}
+@media screen and (min-width:510px){
+    .mIndex .divIndex {
+      width: 50%;
+    }
+  .mIndex .sectionIndex .carousel {
+    width: 50%;
+    margin: 0;
+    }
+}
+
+.mIndex .sectionIndex {
+  background-color: #40e0d0;
+  border: 1px;
+  border-radius: 10px;
+  border-color: #40e0d0;
+  border-width: 95%;
+  margin: 2.5%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.mIndex .sectionIndex .h1Index {
+  margin: 0;
+  margin-left: 204.2025;
+  margin-right: 204.2025;
+}
+
+@media screen and (min-width: 1200px) {
+  main .card {
+    margin: 30px;
+  }
+  main {
+    height: 757px;
+  }
+  .carousel {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
 /*Nosotros*/
+@media screen and (max-width: 320px) {
+  form {
+    width: 304px;
+    margin: 0px;
+  }
+}
+
 .mNosotros {
   color: white;
+  align-items: center;
+}
+.mNosotros a {
+  border: 1px;
+  border-radius: 10px;
+  border-width: 100px;
+  background-color: rgb(59, 59, 60);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  --bs-btn-active-bg: rgb(40, 40, 40);
+}
+.mNosotros a:hover{
+  background-color: rgb(40, 40, 40);
 }
 
 .hNosotros h1 {
@@ -125,6 +231,7 @@ main form div p {
     margin-right: 11%;
   }
 }
+
 .mNosotros p {
   font-size: x-large;
 }
@@ -174,4 +281,50 @@ main form div p {
   .mainProducts section {
     width: auto;
   }
+}
+
+/* tarjetas productos,vista telefono*/
+@media screen and (min-width: 320px) {
+  h1 {
+    margin-left: 26%;
+    margin-right: 26%;
+  }
+  h4 {
+    margin-left: 10px;
+  }
+  p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card {
+    margin: 15px;
+  }
+}
+/*tarjetas productos, vista compu*/
+@media screen and (min-width: 1200px) {
+  .mainProduct {
+    height: auto;
+    
+  }
+}
+.mainProduct{
+  text-align: start;
+}
+.mainProduct .secProduct{
+  justify-content: center;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.card {
+  background-color: #40e0d0;
+  width: 290px;
+  margin: 24px;
+}
+
+.secIndex {
+  justify-content: center;
 }

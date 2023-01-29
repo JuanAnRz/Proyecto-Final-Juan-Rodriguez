@@ -1,0 +1,56 @@
+
+
+/*Paginas de productos individuales*/
+
+.mainProducts{
+    width: 70%;
+    margin: 15%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    border: 1px;
+    border-radius: 10px;
+    border-color: $negro;
+    background-color: $azulc;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    text-align: center;
+
+    
+    section{
+        width: 50%;
+        div{
+            width:100%;
+        }
+    }
+   
+    div{
+        h1{
+            width: 50%;
+        }
+        h3{
+            font-size: larger;
+        }
+        p{
+            text-align: start;
+        }
+    }
+    .carousel{
+        height: 40%;
+    }
+
+    .divproducts{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    @media screen and (max-width: 576px) {
+
+        justify-content: center;
+
+        section{
+            width: auto;
+        }
+
+    }
+}

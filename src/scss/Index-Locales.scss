@@ -1,0 +1,80 @@
+/*Locales*//*Inicio*/
+.mLocales{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: start;
+    align-items: start;
+}
+.Sucursales{
+    width: 95%;
+}
+.card-locales{
+    height: 415px;
+}
+.mIndex{
+    @media screen and (min-width:320px)  {
+
+        .divIndex{
+            width: auto;
+            height: 50%;
+        }
+        .carousel{
+            width: 100%;
+            height: 50%;
+        }
+    }
+       .divIndex{
+        p{
+            color: $negro;
+        }
+       }
+        .sectionIndex{
+            background-color: $azulc;
+            border: 1px;
+            border-radius: 10px;
+            border-color: $azulc;
+            border-width: 95%;
+            margin: 2.5%;
+            display: flex;
+            flex-wrap: wrap; 
+            overflow: hidden;
+            .carousel{
+                width: 50%;
+                margin: 0;
+            }
+            .h1Index{
+                
+                margin: 0;
+                margin-left: 204.2025;
+                margin-right: 204.2025;
+            }
+        }
+        @media screen and (max-width:510px){
+            .divIndex{
+                width: 50%;
+            }
+            .carousel{
+                width: 50%;
+                margin: 0;
+            }
+        }
+        justify-content: start;
+        
+    }
+
+@media screen  and (min-width: 1200px){
+    main .card{
+        margin: 30px;
+    }
+    main{
+        height: 757px;
+    }
+    .carousel{
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    
+}

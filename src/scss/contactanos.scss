@@ -1,0 +1,51 @@
+/*Contactanos*/
+.cardContact{
+    height: 313px;
+}
+.mContactanos{
+    height: auto;
+}
+.contactos{
+    color: $blanco;
+}
+main{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    form{
+        width: 100vw;
+        div{
+            color: $blanco;
+            margin-left: 20px;
+            width: auto;
+            .bttn{
+                margin: 0;
+            }
+            p{
+                color: $blanco;
+            }
+        }
+    }
+ } 
+.margin-left{
+    
+    margin-bottom: 5px;
+}
+.h1Contactanos{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 320px) {
+    
+    .h1Contactanos{
+        margin-left: 10px;
+        margin-right: 0;
+        
+    }
+    .margin{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}
